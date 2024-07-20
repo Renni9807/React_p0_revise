@@ -43,7 +43,7 @@ const BookThree = () => (
   </article>
 );
 
-const Header = () => <h2>Amazon Best Sellers Books</h2>;
+const Header = () => <h1>Amazon Best Sellers</h1>;
 
 const ImageOne = () => (
   <img
@@ -73,9 +73,9 @@ const TitleTwo = () => {
 const TitleThree = () => {
   return <h2>The 48 Laws of Power</h2>;
 };
-const AuthorOne = () => <h4>J. D. Vance</h4>;
-const AuthorTwo = () => <h4>Freida McFadden</h4>;
-const AuthorThree = () => <h4>Robert Greene</h4>;
+const AuthorOne = () => <h4 style={{ color: "#617d98" }}>J. D. Vance</h4>;
+const AuthorTwo = () => <h4 style={{ color: "#617d98" }}>Freida McFadden</h4>;
+const AuthorThree = () => <h4 style={{ color: "#617d98" }}>Robert Greene</h4>;
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 
